@@ -1,0 +1,4093 @@
+<?xml version="1.0" standalone="yes"?>
+<DesignPatternProject>
+  <Project>
+    <ProjectName>NewProject</ProjectName>
+    <ProjectAuthor />
+    <Summary />
+  </Project>
+  <Components>
+    <ComponentName>abstractfactory</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>builder</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>factory</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>prototype</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>singleton</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>creationalpatterns</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>structural</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>bridge</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>composite</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>decorator</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>facade</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>flyweight</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>proxy</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>structuralpatterns</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>command</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>interpreter</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>iterator</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>memento</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>mediator</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>observer</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>state</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>strategy</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>template</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>visitor</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>behaviorpatterns</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Components>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>AbstractFactory</ClassName>
+    <Summary>This is an abstract class that declares an interface for operations that create abstract products 
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>AbstractProductA</ClassName>
+    <Summary>This class declares an interface for a type of product object
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>AbstractProductB</ClassName>
+    <Summary>This class declares an interface for a type of product object
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>Class that uses interfaces declared by AbstractFactory and AbstractProduct classes
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ConcreteFactory1</ClassName>
+    <Summary>This class implements the operations to create concrete product objects 
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ConcreteFactory2</ClassName>
+    <Summary>This class implements the operations to create concrete product objects 
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ProductA1</ClassName>
+    <Summary>This class defines a product object to be created by the corresponding concrete factory and implements the AbstractProduct interface 
+
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ProductA2</ClassName>
+    <Summary>This class defines a product object to be created by the corresponding concrete factory and implements the AbstractProduct interface 
+
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ProductB1</ClassName>
+    <Summary>This class defines a product object to be created by the corresponding concrete factory and implements the AbstractProduct interface 
+
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ProductB2</ClassName>
+    <Summary>This class defines a product object to be created by the corresponding concrete factory and implements the AbstractProduct interface 
+
+Class added from the design pattern:Abstract Factory</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>builder</ComponentName>
+    <ClassName>Builder</ClassName>
+    <Summary>This class specifies an abstract interface for creating parts of a Product object
+Class added from the design pattern:Builder</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>builder</ComponentName>
+    <ClassName>ConcreteBuilder</ClassName>
+    <Summary>This class constructs and assembles parts of the product by implementing the Builder interface.
+It also defines and keeps track of the representation it creates and provides an interface for retrieving the product.
+Class added from the design pattern:Builder</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>builder</ComponentName>
+    <ClassName>Director</ClassName>
+    <Summary>This class constructs an object using the Builder interface
+Class added from the design pattern:Builder</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>builder</ComponentName>
+    <ClassName>Product</ClassName>
+    <Summary>This class represents the complex object under construction.
+ConcreteBuilder builds the product's internal representation and defines the process by which it's assembled.
+It also includes classes that define the constituent parts, including interfaces for assembling the parts into the final result.
+Class added from the design pattern:Builder</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>factory</ComponentName>
+    <ClassName>ConcreteCreator</ClassName>
+    <Summary>This class overrides the factory method to return an instance of a ConcreteProduct.
+Class added from the design pattern:Factory Method</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>factory</ComponentName>
+    <ClassName>ConcreteProduct</ClassName>
+    <Summary>This class implements the Product interface 
+Class added from the design pattern:Factory Method</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>factory</ComponentName>
+    <ClassName>Creator</ClassName>
+    <Summary>This class declares the factory method, which returns an object of type Product.
+Creator may also define a default implementation of the factory method that returns a default ConcreteProduct object 
+and it may call the factory method to create a Product object.
+Class added from the design pattern:Factory Method</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>factory</ComponentName>
+    <ClassName>Product</ClassName>
+    <Summary>This class defines the interface of objects the factory method creates
+Class added from the design pattern:Factory Method</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>This class creates a new object by asking a prototype to clone itself.
+Class added from the design pattern:Prototype</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>ConcretePrototype1</ClassName>
+    <Summary>Summary of MyClass
+Class added from the design pattern:Prototype</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>ConcretePrototype2</ClassName>
+    <Summary>Summary of MyClass
+Class added from the design pattern:Prototype</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>Prototype</ClassName>
+    <Summary>This class declares an interace for cloning itself
+Class added from the design pattern:Prototype</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>singleton</ComponentName>
+    <ClassName>Singleton</ClassName>
+    <Summary>This class defines an Instance operation that lets clients access its unique instance.
+Instance is a class operation. It is also responsible for creating and maintaining its own unique instance.
+Class added from the design pattern:Singleton</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Adaptee</ClassName>
+    <Summary>Summary of MyClass
+Class added from the design pattern:Adapter</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Adapter</ClassName>
+    <Summary>This class adapts the interface Adaptee to the Target interface.
+Class added from the design pattern:Adapter</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>This class collaborates with objects conforming to the Target interface.
+Class added from the design pattern:Adapter</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Target</ClassName>
+    <Summary>This class defines the domain-specific interface that Client uses.
+Class added from the design pattern:Adapter</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>Abstraction</ClassName>
+    <Summary>This class defines the abstraction's interface and maintains a reference to an object of type Implementor.
+Class added from the design pattern:Bridge</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>Summary of MyClass
+Class added from the design pattern:Bridge</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>ConcreteImplementorA</ClassName>
+    <Summary>This class implements the Implementor interface and defines its concrete implementation.
+Class added from the design pattern:Bridge</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>ConcreteImplementorB</ClassName>
+    <Summary>This class implements the Implementor interface and defines its concrete implementation.
+Class added from the design pattern:Bridge</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>Implementor</ClassName>
+    <Summary>This class defines the interface for implementation classes.
+This interface doesn't have to correspond exactly to Abstraction's interface; in fact the two interfaces can be quite different.
+Typically the Implementation interface provides only primitive operations, and Abstraction defines higher-level operations based on these primitives.
+Class added from the design pattern:Bridge</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>RefinedAbstraction</ClassName>
+    <Summary>This class extends the interface defined by Abstraction.
+Class added from the design pattern:Bridge</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>This class manipulates objects in the composition through the Component interface.
+Class added from the design pattern:Composite</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Component</ClassName>
+    <Summary>This class declares the interface for objects in the composition,  implements default behavior for the interface common to all classes, as appropriate.
+
+It declares an interface for accessing and managing its child components. 
+
+It also defines an optional interface for accessing a component's parent in the recursive structure, and implements it if that's appropriate.
+Class added from the design pattern:Composite</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Composite</ClassName>
+    <Summary>This class defines behavior for components having children, 
+stores child components and implements child-related operations in the Component interface.
+Class added from the design pattern:Composite</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Leaf</ClassName>
+    <Summary>This class represents leaf objects in the composition. A leaf has no children and defines behavior for primitive objects in the composition. 
+Class added from the design pattern:Composite</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>Component</ClassName>
+    <Summary>This class defines the interface for objects that can have responsibilities added to them dynamically. 
+Class added from the design pattern:Decorator</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteComponent</ClassName>
+    <Summary>This class defines an object to which additional responsibilities can be attached.
+Class added from the design pattern:Decorator</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteDecoratorA</ClassName>
+    <Summary>This class adds responsibilities to the component.
+Class added from the design pattern:Decorator</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteDecoratorB</ClassName>
+    <Summary>This class adds responsibilities to the component.
+Class added from the design pattern:Decorator</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>Decorator</ClassName>
+    <Summary>This class maintains a reference to a Component object and defines an interface that conforms to Component's interface.
+Class added from the design pattern:Decorator</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>facade</ComponentName>
+    <ClassName>Facade</ClassName>
+    <Summary>A unified interface to the subsystem.
+Class added from the design pattern:Facade</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>facade</ComponentName>
+    <ClassName>SubsystemClass1</ClassName>
+    <Summary>A class in the subsystem.
+Class added from the design pattern:Facade</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>facade</ComponentName>
+    <ClassName>SubsystemClass2</ClassName>
+    <Summary>A class in the subsystem
+Class added from the design pattern:Facade</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>This class maintains a reference to flyweight(s), computes or stores the extrinsic state of flyweight(s). 
+Class added from the design pattern:Flyweight</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>ConcreteFlyweight</ClassName>
+    <Summary>This class implements the Flyweight interface and adds storage for intrinsic state, if any. A ConcreteFlyweight object must be sharable. Any state it stores must be intrinsic, that is, it must be independent of the ConcreteFlyweight object's context.
+Class added from the design pattern:Flyweight</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>Flyweight</ClassName>
+    <Summary>This class declares an interface through which flyweights can receive and act on extrinsic state.
+Class added from the design pattern:Flyweight</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>FlyweightFactory</ClassName>
+    <Summary>This class creates and manages flyweight objects.
+It also ensures that flyweight are shared properly.
+When a client requests a flyweight, the FlyweightFactory objects supplies an existing instance or creates one, if none exists.
+
+Class added from the design pattern:Flyweight</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>UnsharedConcreteFlyweight</ClassName>
+    <Summary>Not all Flyweight subclasses need to be shared. The Flyweight interface enables sharing, but it doesn't enforce it. It is common for UnsharedConcreteFlyweight objects to have ConcreteFlyweight objects as children at some level in the flyweight object structure (as the Row and Column classes have). 
+
+Class added from the design pattern:Flyweight</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>Summary of MyClass
+Class added from the design pattern:Proxy</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>Proxy</ClassName>
+    <Summary>This class maintains a reference that lets the proxy access the real subject. 
+Proxy may refer to a Subject if the RealSubject and Subject interfaces are the same. 
+
+Class added from the design pattern:Proxy</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>RealSubject</ClassName>
+    <Summary>This class defines the real object that the proxy represents.
+Class added from the design pattern:Proxy</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>Subject</ClassName>
+    <Summary>This class defines the common interface for RealSubject and Proxy so that a Proxy can be used anywhere a RealSubject is expected.
+Class added from the design pattern:Proxy</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>Summary of MyClass
+Class added from the design pattern:Visitor</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementA</ClassName>
+    <Summary>This class implements an Accept operation that takes a visitor as an argument
+
+Class added from the design pattern:Visitor</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementB</ClassName>
+    <Summary>This class implements an Accept operation that takes a visitor as an argument
+
+Class added from the design pattern:Visitor</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteVisitor1</ClassName>
+    <Summary>This class implements each operation declared by Visitor.
+Each operation implements a fragment of the algorithm defined for the corresponding class or object in the structure. 
+ConcreteVisitor provides the context for the algorithm and stores its local state. 
+
+Class added from the design pattern:Visitor</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteVisitor2</ClassName>
+    <Summary>This class implements each operation declared by Visitor.
+Each operation implements a fragment of the algorithm defined for the corresponding class or object in the structure. 
+ConcreteVisitor provides the context for the algorithm and stores its local state. 
+This state often accumulates results during the traversal of the structure. 
+
+Class added from the design pattern:Visitor</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>Element</ClassName>
+    <Summary>This class defines an Accept operation that takes a visitor as an argument
+Class added from the design pattern:Visitor</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ObjectStructure</ClassName>
+    <Summary>This class can enumerate its elements, may provide a high-level interface to allow the visitor to visit its elements and may either be a Composite (pattern) or a collection such as a list or a set.
+
+Class added from the design pattern:Visitor</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>Visitor</ClassName>
+    <Summary>This class declares a Visit operation for each class of ConcreteElement in the object structure.
+The operation's name and signature identifies the class that sends the Visit request to the visitor. 
+That lets the visitor determine the concrete class of the element being visited. 
+Then the visitor can access the elements directly through its particular interface 
+
+Class added from the design pattern:Visitor</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>template</ComponentName>
+    <ClassName>AbstractClass</ClassName>
+    <Summary>This classdefines abstract primitive operations that 
+concrete subclasses define to implement steps of an 
+algorithm and implements a template method defining 
+the skeleton of an algorithm. The template method 
+calls primitive operations as well as operations defined 
+in AbstractClass or those of other objects. 
+Class added from the design pattern:Template Method</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>template</ComponentName>
+    <ClassName>ConcreteClass</ClassName>
+    <Summary>This class implements the primitive operations ot carry out subclass-specific steps of the algorithm 
+Class added from the design pattern:Template Method</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>ConcreteStrategyA</ClassName>
+    <Summary>This class implements the algorithm using the Strategy interface 
+Class added from the design pattern:Strategy</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>ConcreteStrategyB</ClassName>
+    <Summary>This class implements the algorithm using the Strategy interface 
+Class added from the design pattern:Strategy</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>ConcreteStrategyC</ClassName>
+    <Summary>This class implements the algorithm using the Strategy interface 
+Class added from the design pattern:Strategy</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>Context</ClassName>
+    <Summary>This class is configured with a ConcreteStrategy 
+object which maintains a reference to a Strategy 
+object and may define an interface that lets Strategy access its data. 
+Class added from the design pattern:Strategy</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>Strategy</ClassName>
+    <Summary>This class declares an interface common to all 
+supported algorithms. Context uses this interface to 
+call the algorithm defined by a ConcreteStrategy 
+Class added from the design pattern:Strategy</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>state</ComponentName>
+    <ClassName>ConcreteStateA</ClassName>
+    <Summary>Eachof the  subclass implements a behavior associated with a state of Context
+Class added from the design pattern:State</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>state</ComponentName>
+    <ClassName>ConcreteStateB</ClassName>
+    <Summary>Eachof the  subclass implements a behavior associated with a state of Context
+Class added from the design pattern:State</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>state</ComponentName>
+    <ClassName>Context</ClassName>
+    <Summary>This class defines the interface of interest to clients and
+ maintains an instance of a ConcreteState subclass that defines the current state. 
+Class added from the design pattern:State</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>state</ComponentName>
+    <ClassName>State</ClassName>
+    <Summary>This class defines an interface for encapsulating the behavior associated 
+with a particular state of the Context. 
+
+Class added from the design pattern:State</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteObserver</ClassName>
+    <Summary>Summary of MyClass
+Class added from the design pattern:Observer</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <Summary>This class stores state of interest to ConcreteObserver and
+sends a notification to its observers when its state changes 
+Class added from the design pattern:Observer</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>observer</ComponentName>
+    <ClassName>Observer</ClassName>
+    <Summary>This class defines an updating interface for objects that should be notified of changes in a subject.
+Class added from the design pattern:Observer</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>observer</ComponentName>
+    <ClassName>Subject</ClassName>
+    <Summary>This class knows its observers.
+Any number of Observer objects may observe a subject.
+This class also provides an interface for attaching and detaching Observer objects. 
+
+Class added from the design pattern:Observer</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>Colleague</ClassName>
+    <Summary>Each Colleague class knows its Mediator object and 
+each colleague communicates with its mediator 
+whenever it would have otherwise communicated with another colleague 
+Class added from the design pattern:Mediator</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>ConcreteColleague1</ClassName>
+    <Summary>Each Colleague class knows its Mediator object and
+each colleague communicates with its mediator 
+whenever it would have otherwise communicated with another colleague 
+Class added from the design pattern:Mediator</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>ConcreteColleague2</ClassName>
+    <Summary>Each Colleague class knows its Mediator object and
+each colleague communicates with its mediator 
+whenever it would have otherwise communicated with another colleague 
+Class added from the design pattern:Mediator</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>ConcreteMediator</ClassName>
+    <Summary>This class implements cooperative behavior by coordinating Colleague objects and knows, maintains its colleagues 
+Class added from the design pattern:Mediator</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>Mediator</ClassName>
+    <Summary>This class defines an interface for communicating with Colleague objects 
+
+Class added from the design pattern:Mediator</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Caretaker</ClassName>
+    <Summary>This class is responsible for the memento's safekeeping and 
+never operates on or examines the contents of a memento.
+Class added from the design pattern:Memento</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Momento</ClassName>
+    <Summary>This class stores internal state of the Originator object.
+The memento may store as much or as little of the originator's internal state as necessary at its originator's discretion. 
+It protects against access by objects of other than the originator. 
+Mementos have effectively two interfaces. Caretaker sees a narrow interface to the Memento -- it can only pass the memento to the other objects.
+Originator, in contrast, sees a wide interface, one that lets it access all the data necessary to restore itself to its previous state.
+Ideally, only the originator that produces the memento would be permitted to access the memento's internal state. 
+
+Class added from the design pattern:Memento</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Originator</ClassName>
+    <Summary>This class creates a memento containing a snapshot of its current internal state.
+It uses the memento to restore its internal state 
+Class added from the design pattern:Memento</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Aggregate</ClassName>
+    <Summary>This class defines an interface for creating an Iterator object 
+Class added from the design pattern:Iterator</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>Summary of MyClass
+Class added from the design pattern:Iterator</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteAggregate</ClassName>
+    <Summary>This class implements the Iterator creation interface to return an instance of the proper ConcreteIterator 
+Class added from the design pattern:Iterator</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteIterator</ClassName>
+    <Summary>This class implements the Iterator interface and keeps track of the current position in the traversal of the aggregate.
+Class added from the design pattern:Iterator</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Iterator</ClassName>
+    <Summary>This class defines an interface for accessing and traversing elements.
+Class added from the design pattern:Iterator</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>AbstractExpression</ClassName>
+    <Summary>This class declares an interface for executing an operation 
+Class added from the design pattern:Interpreter</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>This class builds (or is given) an abstract syntax tree representing a particular sentence in the language that the grammar defines. 
+The abstract syntax tree is assembled from instances of the NonterminalExpression and TerminalExpression classes.
+This class invokes the Interpret operation.
+
+Class added from the design pattern:Interpreter</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>Context</ClassName>
+    <Summary>This class contains information that is global to the interpreter 
+Class added from the design pattern:Interpreter</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>NonterminalExpression</ClassName>
+    <Summary>one such class is required for every rule R ::= R1R2...Rn in the grammar. 
+This class maintains instance variables of type AbstractExpression for each of the symbols R1 through Rn and
+implements an Interpret operation for nonterminal symbols in the grammar. 
+Interpret typically calls itself recursively on the variables representing R1 through Rn.
+Class added from the design pattern:Interpreter</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>TerminalExpression</ClassName>
+    <Summary>This implements an Interpret operation associated with terminal symbols in the grammar and
+an instance is required for every terminal symbol in the sentence.
+Class added from the design pattern:Interpreter</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>command</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>This class creates a ConcreteCommand object and sets its receiver 
+Class added from the design pattern:Command</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>command</ComponentName>
+    <ClassName>Command</ClassName>
+    <Summary>This class declares an interface for executing an operation
+Class added from the design pattern:Command</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>command</ComponentName>
+    <ClassName>ConcreteCommand</ClassName>
+    <Summary>This class defines a binding between a Receiver object and an action and 
+implements Execute by invoking the corresponding operation(s) on Receiver 
+
+Class added from the design pattern:Command</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>command</ComponentName>
+    <ClassName>Invoker</ClassName>
+    <Summary>This class asks the command to carry out the request
+Class added from the design pattern:Command</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>command</ComponentName>
+    <ClassName>Receiver</ClassName>
+    <Summary>This class knows how to perform the operations associated with carrying out the request.
+Class added from the design pattern:Command</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>Client</ClassName>
+    <Summary>This class initiates the request to a ConcreteHandler object on the chain 
+Class added from the design pattern:Chain of Responsibility</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>ConcreteHandler1</ClassName>
+    <Summary>This class handles requests it is responsible for. It can access its successor. If the ConcreteHandler can handle the request, it does so; otherwise it forwards the request to its successor.
+Class added from the design pattern:Chain of Responsibility</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>ConcreteHandler2</ClassName>
+    <Summary>This class handles requests it is responsible for. It can access its successor. If the ConcreteHandler can handle the request, it does so; otherwise it forwards the request to its successor.
+Class added from the design pattern:Chain of Responsibility</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>Handler</ClassName>
+    <Summary>This class defines an interface for handling the requests and  implements the optional successor link 
+Class added from the design pattern:Chain of Responsibility</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Methods>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>AbstractFactory</ClassName>
+    <MethodName>CreateProductA</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>AbstractProductA</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1975679842</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>AbstractFactory</ClassName>
+    <MethodName>CreateProductB</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>AbstractProductB</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>754765623</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ConcreteFactory1</ClassName>
+    <MethodName>CreateProductA</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>AbstractProductA</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-474492860</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ConcreteFactory1</ClassName>
+    <MethodName>CreateProductB</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>AbstractProductB</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>442390467</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ConcreteFactory2</ClassName>
+    <MethodName>CreateProductA</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>AbstractProductA</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1400138786</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ConcreteFactory2</ClassName>
+    <MethodName>CreateProductB</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>AbstractProductB</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-483255459</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>builder</ComponentName>
+    <ClassName>Builder</ClassName>
+    <MethodName>BuildPart</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-898843183</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>builder</ComponentName>
+    <ClassName>ConcreteBuilder</ClassName>
+    <MethodName>BuildPart</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-531924337</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>builder</ComponentName>
+    <ClassName>ConcreteBuilder</ClassName>
+    <MethodName>GetResult</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1456908918</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>builder</ComponentName>
+    <ClassName>Director</ClassName>
+    <MethodName>Construct</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>foreach (item in structure)
+  builder.BuildPart();</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1037084295</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>factory</ComponentName>
+    <ClassName>ConcreteCreator</ClassName>
+    <MethodName>FactoryMethod</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>ConcreteProduct</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>680555046</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>factory</ComponentName>
+    <ClassName>Creator</ClassName>
+    <MethodName>FactoryMethod</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>Product</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-195258172</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>factory</ComponentName>
+    <ClassName>Creator</ClassName>
+    <MethodName>AnOperation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1711723785</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>factory</ComponentName>
+    <ClassName>ConcreteCreator</ClassName>
+    <MethodName>FactoryMethod</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Creator of Component:NewComponent]</Summary>
+    <ReturnType>Product</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>680555046</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>factory</ComponentName>
+    <ClassName>ConcreteCreator</ClassName>
+    <MethodName>AnOperation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Creator of Component:NewComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1617611796</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>Client</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-8539402</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>ConcretePrototype1</ClassName>
+    <MethodName>Clone</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1873578295</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>ConcretePrototype2</ClassName>
+    <MethodName>Clone</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>783508370</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>Prototype</ClassName>
+    <MethodName>Clone</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1292901333</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>singleton</ComponentName>
+    <ClassName>Singleton</ClassName>
+    <MethodName>Singleton</MethodName>
+    <Visibility>private</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1158532106</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>singleton</ComponentName>
+    <ClassName>Singleton</ClassName>
+    <MethodName>Instance</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>Singleton</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-5998781</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Adaptee</ClassName>
+    <MethodName>SpecificRequest</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-849813732</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Adapter</ClassName>
+    <MethodName>Request</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Adaptee.SpecificRequest();</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1346703331</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Target</ClassName>
+    <MethodName>Request</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-864428740</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>Abstraction</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Implementor.OperationImp();</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1867203668</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>ConcreteImplementorA</ClassName>
+    <MethodName>OperationImp</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>591926595</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>ConcreteImplementorB</ClassName>
+    <MethodName>OperationImp</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-55370932</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>Implementor</ClassName>
+    <MethodName>OperationImp</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>698029216</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>RefinedAbstraction</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>769564435</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Component</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1749009192</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Component</ClassName>
+    <MethodName>Add</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-2097839276</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Component</ClassName>
+    <MethodName>Remove</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-2105646791</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Component</ClassName>
+    <MethodName>GetChild</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>757545257</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Composite</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>foreach child in children
+  child.Operation()</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-2092164497</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Composite</ClassName>
+    <MethodName>Add</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-369962001</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Composite</ClassName>
+    <MethodName>Remove</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>271301823</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Composite</ClassName>
+    <MethodName>GetChild</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>241691796</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Leaf</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1295790485</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Leaf</ClassName>
+    <MethodName>Add</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Component of Component:composite]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>850266299</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Leaf</ClassName>
+    <MethodName>Remove</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Component of Component:composite]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>326617623</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Leaf</ClassName>
+    <MethodName>GetChild</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Component of Component:composite]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>199429982</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>Component</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-414597417</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteComponent</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1098845942</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteDecoratorA</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>581261049</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteDecoratorB</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>base.Operation();
+AddedBehavior();</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1100698403</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteDecoratorB</ClassName>
+    <MethodName>AddedBehaviour</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-613448515</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>Decorator</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>component.Operation()</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>130896994</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>ConcreteFlyweight</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1575154051</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>Flyweight</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1884508339</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>FlyweightFactory</ClassName>
+    <MethodName>GetFlyweight</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>if flyweights[key] exists
+    return existing flyweight
+else
+    create new flyweight
+    add to pool of flyweights
+    return the new flyweight</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1276070606</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>UnsharedConcreteFlyweight</ClassName>
+    <MethodName>Operation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>479405452</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>Proxy</ClassName>
+    <MethodName>Request</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>realSubject.Request()</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1470271038</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>RealSubject</ClassName>
+    <MethodName>Request</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>818742068</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>Subject</ClassName>
+    <MethodName>Request</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1478965009</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementA</ClassName>
+    <MethodName>Accept</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>visitor.VisitConcreteElementA(this)</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>938029706</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementA</ClassName>
+    <MethodName>OperationA</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1198003963</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementB</ClassName>
+    <MethodName>Accept</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>visitor.VisitConcreteElementB(this)</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1618877396</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementB</ClassName>
+    <MethodName>OperationB</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1249352075</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteVisitor1</ClassName>
+    <MethodName>visitConcreteElementA</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>375778623</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteVisitor1</ClassName>
+    <MethodName>visitConcreteElementB</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>517567587</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteVisitor2</ClassName>
+    <MethodName>visitConcreteElementA</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1668250285</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteVisitor2</ClassName>
+    <MethodName>visitConcreteElementB</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1810039249</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>Element</ClassName>
+    <MethodName>Accept</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-683268716</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>Visitor</ClassName>
+    <MethodName>visitConcreteElementA</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-707209462</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>Visitor</ClassName>
+    <MethodName>visitConcreteElementB</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>274298344</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementA</ClassName>
+    <MethodName>Accept</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Element of Component:visitor]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>938029706</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementB</ClassName>
+    <MethodName>Accept</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Element of Component:visitor]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1618877396</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>template</ComponentName>
+    <ClassName>AbstractClass</ClassName>
+    <MethodName>TemplateMethod</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>....
+PrimitiveOperation1()
+....
+PrimitiveOperation2()
+....
+</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-493729021</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>template</ComponentName>
+    <ClassName>AbstractClass</ClassName>
+    <MethodName>PrimitiveOperation1</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>732132223</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>template</ComponentName>
+    <ClassName>AbstractClass</ClassName>
+    <MethodName>PrimitiveOperation2</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1325315073</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>template</ComponentName>
+    <ClassName>ConcreteClass</ClassName>
+    <MethodName>PrimitiveOperation1</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>138218939</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>template</ComponentName>
+    <ClassName>ConcreteClass</ClassName>
+    <MethodName>PrimitiveOperation2</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>696944543</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>template</ComponentName>
+    <ClassName>ConcreteClass</ClassName>
+    <MethodName>TemplateMethod</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : AbstractClass of Component:template]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-88089756</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>ConcreteStrategyA</ClassName>
+    <MethodName>AlgorithmInterface</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1540683972</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>ConcreteStrategyB</ClassName>
+    <MethodName>AlgorithmInterface</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1264668307</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>ConcreteStrategyC</ClassName>
+    <MethodName>AlgorithmInterface</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>792621811</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>Context</ClassName>
+    <MethodName>ContextInterface</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-2025261848</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>Strategy</ClassName>
+    <MethodName>AlgorithmInterface</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1823489799</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>state</ComponentName>
+    <ClassName>ConcreteStateA</ClassName>
+    <MethodName>Handle</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1622034681</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>state</ComponentName>
+    <ClassName>ConcreteStateB</ClassName>
+    <MethodName>Handle</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>569087982</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>state</ComponentName>
+    <ClassName>Context</ClassName>
+    <MethodName>Request</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>state.Handle()</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1929259676</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>state</ComponentName>
+    <ClassName>State</ClassName>
+    <MethodName>Handle</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-197335164</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteObserver</ClassName>
+    <MethodName>Update</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>observerState = subject.GetState()</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1555064876</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <MethodName>GetState</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>return subjectState</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1272930849</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>observer</ComponentName>
+    <ClassName>Observer</ClassName>
+    <MethodName>Update</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-782902645</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>observer</ComponentName>
+    <ClassName>Subject</ClassName>
+    <MethodName>Attach</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1409776757</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>observer</ComponentName>
+    <ClassName>Subject</ClassName>
+    <MethodName>Detach</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1751117194</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>observer</ComponentName>
+    <ClassName>Subject</ClassName>
+    <MethodName>Notify</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>foreach o in observers
+    o.Update()</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>211366033</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <MethodName>Attach</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Subject of Component:observer]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-758529778</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <MethodName>Detach</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Subject of Component:observer]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-982951067</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <MethodName>Notify</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Subject of Component:observer]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1274135722</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Momento</ClassName>
+    <MethodName>GetState</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-449635770</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Momento</ClassName>
+    <MethodName>SetState</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>66518207</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Originator</ClassName>
+    <MethodName>SetMomento</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>state = m.GetState()</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>883603997</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Originator</ClassName>
+    <MethodName>CreateMomento</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>return new Memento(state)</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1005088100</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Aggregate</ClassName>
+    <MethodName>CreateIterator</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>Iterator</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1951370226</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteAggregate</ClassName>
+    <MethodName>CreateIterator</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>return new ConcreteIterator(this);</Summary>
+    <ReturnType>ConcreteIterator</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>2030935714</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Iterator</ClassName>
+    <MethodName>First</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>293973354</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Iterator</ClassName>
+    <MethodName>Next</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-190766628</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Iterator</ClassName>
+    <MethodName>IsDone</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-28813388</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Iterator</ClassName>
+    <MethodName>CurrentItem</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>object</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-597589024</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteAggregate</ClassName>
+    <MethodName>CreateIterator</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Aggregate of Component:iterator]</Summary>
+    <ReturnType>Iterator</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>2030935714</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteIterator</ClassName>
+    <MethodName>First</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Iterator of Component:iterator]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-771101528</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteIterator</ClassName>
+    <MethodName>Next</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Iterator of Component:iterator]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1407990809</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteIterator</ClassName>
+    <MethodName>IsDone</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Iterator of Component:iterator]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1836367614</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteIterator</ClassName>
+    <MethodName>CurrentItem</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Iterator of Component:iterator]</Summary>
+    <ReturnType>object</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>625198396</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>AbstractExpression</ClassName>
+    <MethodName>Interpret</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1128985271</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>NonterminalExpression</ClassName>
+    <MethodName>Interpret</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1216016914</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>TerminalExpression</ClassName>
+    <MethodName>Interpret</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>247457294</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>command</ComponentName>
+    <ClassName>Command</ClassName>
+    <MethodName>Execute</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-2083218147</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>command</ComponentName>
+    <ClassName>ConcreteCommand</ClassName>
+    <MethodName>Execute</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Receiver.Action()</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1034487454</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>command</ComponentName>
+    <ClassName>Receiver</ClassName>
+    <MethodName>Action</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1059937863</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>ConcreteHandler1</ClassName>
+    <MethodName>HandleRequest</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-2043225217</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>ConcreteHandler2</ClassName>
+    <MethodName>HandleRequest</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1079868085</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>Handler</ClassName>
+    <MethodName>HandleRequest</MethodName>
+    <Visibility>public</Visibility>
+    <Summary />
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-610518350</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Fields>
+    <ComponentName>singleton</ComponentName>
+    <ClassName>Singleton</ClassName>
+    <FieldType>Singleton</FieldType>
+    <FieldName>instance</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteDecoratorA</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>addedState</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>ConcreteFlyweight</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>allState</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>UnsharedConcreteFlyweight</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>instrinsicState</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteObserver</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>observerState</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>subjectState</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Momento</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>state</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Originator</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>state</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>command</ComponentName>
+    <ClassName>ConcreteCommand</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>state</FieldName>
+    <Summary />
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Parameters>
+    <ParameterType>Component</ParameterType>
+    <ParameterName>in Component</ParameterName>
+    <Summary />
+    <MethodID>-2097839276</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Component</ParameterType>
+    <ParameterName>in Component</ParameterName>
+    <Summary />
+    <MethodID>-2105646791</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>int</ParameterType>
+    <ParameterName>in index</ParameterName>
+    <Summary />
+    <MethodID>757545257</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Component</ParameterType>
+    <ParameterName>in Component</ParameterName>
+    <Summary />
+    <MethodID>-369962001</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Component</ParameterType>
+    <ParameterName>in Component</ParameterName>
+    <Summary />
+    <MethodID>271301823</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>int</ParameterType>
+    <ParameterName>in index</ParameterName>
+    <Summary />
+    <MethodID>241691796</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Component</ParameterType>
+    <ParameterName>in Component</ParameterName>
+    <Summary />
+    <MethodID>850266299</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>Component</ParameterType>
+    <ParameterName>in Component</ParameterName>
+    <Summary />
+    <MethodID>326617623</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>int</ParameterType>
+    <ParameterName>in index</ParameterName>
+    <Summary />
+    <MethodID>199429982</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in extrinsicState</ParameterName>
+    <Summary />
+    <MethodID>-1575154051</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in extrinsicState</ParameterName>
+    <Summary />
+    <MethodID>-1884508339</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in key</ParameterName>
+    <Summary />
+    <MethodID>-1276070606</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in extrinsicState</ParameterName>
+    <Summary />
+    <MethodID>479405452</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>visitor</ParameterType>
+    <ParameterName>in visitor</ParameterName>
+    <Summary />
+    <MethodID>938029706</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>visitor</ParameterType>
+    <ParameterName>in visitor</ParameterName>
+    <Summary />
+    <MethodID>1618877396</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in ConcreteElementA</ParameterName>
+    <Summary />
+    <MethodID>375778623</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in ConcreteElementB</ParameterName>
+    <Summary />
+    <MethodID>517567587</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in ConcreteElementA</ParameterName>
+    <Summary />
+    <MethodID>1668250285</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in ConcreteElementB</ParameterName>
+    <Summary />
+    <MethodID>1810039249</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>visitor</ParameterType>
+    <ParameterName>in Visitor</ParameterName>
+    <Summary />
+    <MethodID>-683268716</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in ConcreteElementA</ParameterName>
+    <Summary />
+    <MethodID>-707209462</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in ConcreteElementB</ParameterName>
+    <Summary />
+    <MethodID>274298344</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>visitor</ParameterType>
+    <ParameterName>in Visitor</ParameterName>
+    <Summary />
+    <MethodID>938029706</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>visitor</ParameterType>
+    <ParameterName>in Visitor</ParameterName>
+    <Summary />
+    <MethodID>1618877396</MethodID>
+    <ParamOrder>1</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in observer</ParameterName>
+    <Summary />
+    <MethodID>1409776757</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in observer</ParameterName>
+    <Summary />
+    <MethodID>-1751117194</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in observer</ParameterName>
+    <Summary />
+    <MethodID>-758529778</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in observer</ParameterName>
+    <Summary />
+    <MethodID>-982951067</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in momento</ParameterName>
+    <Summary />
+    <MethodID>883603997</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in Context</ParameterName>
+    <Summary />
+    <MethodID>-1128985271</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in Context</ParameterName>
+    <Summary />
+    <MethodID>1216016914</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in Context</ParameterName>
+    <Summary />
+    <MethodID>247457294</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Inheritances>
+    <BaseClassComponent>abstractfactory</BaseClassComponent>
+    <BaseClassName>AbstractFactory</BaseClassName>
+    <DerivedClassComponent>abstractfactory</DerivedClassComponent>
+    <DerivedClassName>ConcreteFactory1</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>abstractfactory</BaseClassComponent>
+    <BaseClassName>AbstractFactory</BaseClassName>
+    <DerivedClassComponent>abstractfactory</DerivedClassComponent>
+    <DerivedClassName>ConcreteFactory2</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>abstractfactory</BaseClassComponent>
+    <BaseClassName>AbstractProductA</BaseClassName>
+    <DerivedClassComponent>abstractfactory</DerivedClassComponent>
+    <DerivedClassName>ProductA1</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>abstractfactory</BaseClassComponent>
+    <BaseClassName>AbstractProductA</BaseClassName>
+    <DerivedClassComponent>abstractfactory</DerivedClassComponent>
+    <DerivedClassName>ProductA2</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>abstractfactory</BaseClassComponent>
+    <BaseClassName>AbstractProductB</BaseClassName>
+    <DerivedClassComponent>abstractfactory</DerivedClassComponent>
+    <DerivedClassName>ProductB1</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>abstractfactory</BaseClassComponent>
+    <BaseClassName>AbstractProductB</BaseClassName>
+    <DerivedClassComponent>abstractfactory</DerivedClassComponent>
+    <DerivedClassName>ProductB2</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>builder</BaseClassComponent>
+    <BaseClassName>Builder</BaseClassName>
+    <DerivedClassComponent>builder</DerivedClassComponent>
+    <DerivedClassName>ConcreteBuilder</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>factory</BaseClassComponent>
+    <BaseClassName>Creator</BaseClassName>
+    <DerivedClassComponent>factory</DerivedClassComponent>
+    <DerivedClassName>ConcreteCreator</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>factory</BaseClassComponent>
+    <BaseClassName>Product</BaseClassName>
+    <DerivedClassComponent>factory</DerivedClassComponent>
+    <DerivedClassName>ConcreteProduct</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>prototype</BaseClassComponent>
+    <BaseClassName>Prototype</BaseClassName>
+    <DerivedClassComponent>prototype</DerivedClassComponent>
+    <DerivedClassName>ConcretePrototype1</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>prototype</BaseClassComponent>
+    <BaseClassName>Prototype</BaseClassName>
+    <DerivedClassComponent>prototype</DerivedClassComponent>
+    <DerivedClassName>ConcretePrototype2</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>structural</BaseClassComponent>
+    <BaseClassName>Target</BaseClassName>
+    <DerivedClassComponent>structural</DerivedClassComponent>
+    <DerivedClassName>Adapter</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>bridge</BaseClassComponent>
+    <BaseClassName>Implementor</BaseClassName>
+    <DerivedClassComponent>bridge</DerivedClassComponent>
+    <DerivedClassName>ConcreteImplementorA</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>bridge</BaseClassComponent>
+    <BaseClassName>Implementor</BaseClassName>
+    <DerivedClassComponent>bridge</DerivedClassComponent>
+    <DerivedClassName>ConcreteImplementorB</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>bridge</BaseClassComponent>
+    <BaseClassName>Abstraction</BaseClassName>
+    <DerivedClassComponent>bridge</DerivedClassComponent>
+    <DerivedClassName>RefinedAbstraction</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>composite</BaseClassComponent>
+    <BaseClassName>Component</BaseClassName>
+    <DerivedClassComponent>composite</DerivedClassComponent>
+    <DerivedClassName>Composite</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>composite</BaseClassComponent>
+    <BaseClassName>Component</BaseClassName>
+    <DerivedClassComponent>composite</DerivedClassComponent>
+    <DerivedClassName>Leaf</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>decorator</BaseClassComponent>
+    <BaseClassName>Component</BaseClassName>
+    <DerivedClassComponent>decorator</DerivedClassComponent>
+    <DerivedClassName>ConcreteComponent</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>decorator</BaseClassComponent>
+    <BaseClassName>Decorator</BaseClassName>
+    <DerivedClassComponent>decorator</DerivedClassComponent>
+    <DerivedClassName>ConcreteDecoratorA</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>decorator</BaseClassComponent>
+    <BaseClassName>Decorator</BaseClassName>
+    <DerivedClassComponent>decorator</DerivedClassComponent>
+    <DerivedClassName>ConcreteDecoratorB</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>decorator</BaseClassComponent>
+    <BaseClassName>Component</BaseClassName>
+    <DerivedClassComponent>decorator</DerivedClassComponent>
+    <DerivedClassName>Decorator</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>flyweight</BaseClassComponent>
+    <BaseClassName>Flyweight</BaseClassName>
+    <DerivedClassComponent>flyweight</DerivedClassComponent>
+    <DerivedClassName>ConcreteFlyweight</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>flyweight</BaseClassComponent>
+    <BaseClassName>Flyweight</BaseClassName>
+    <DerivedClassComponent>flyweight</DerivedClassComponent>
+    <DerivedClassName>UnsharedConcreteFlyweight</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>proxy</BaseClassComponent>
+    <BaseClassName>Subject</BaseClassName>
+    <DerivedClassComponent>proxy</DerivedClassComponent>
+    <DerivedClassName>Proxy</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>proxy</BaseClassComponent>
+    <BaseClassName>Subject</BaseClassName>
+    <DerivedClassComponent>proxy</DerivedClassComponent>
+    <DerivedClassName>RealSubject</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>visitor</BaseClassComponent>
+    <BaseClassName>Element</BaseClassName>
+    <DerivedClassComponent>visitor</DerivedClassComponent>
+    <DerivedClassName>ConcreteElementA</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>visitor</BaseClassComponent>
+    <BaseClassName>Element</BaseClassName>
+    <DerivedClassComponent>visitor</DerivedClassComponent>
+    <DerivedClassName>ConcreteElementB</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>visitor</BaseClassComponent>
+    <BaseClassName>Visitor</BaseClassName>
+    <DerivedClassComponent>visitor</DerivedClassComponent>
+    <DerivedClassName>ConcreteVisitor1</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>visitor</BaseClassComponent>
+    <BaseClassName>Visitor</BaseClassName>
+    <DerivedClassComponent>visitor</DerivedClassComponent>
+    <DerivedClassName>ConcreteVisitor2</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>template</BaseClassComponent>
+    <BaseClassName>AbstractClass</BaseClassName>
+    <DerivedClassComponent>template</DerivedClassComponent>
+    <DerivedClassName>ConcreteClass</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>strategy</BaseClassComponent>
+    <BaseClassName>Strategy</BaseClassName>
+    <DerivedClassComponent>strategy</DerivedClassComponent>
+    <DerivedClassName>ConcreteStrategyA</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>strategy</BaseClassComponent>
+    <BaseClassName>Strategy</BaseClassName>
+    <DerivedClassComponent>strategy</DerivedClassComponent>
+    <DerivedClassName>ConcreteStrategyB</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>strategy</BaseClassComponent>
+    <BaseClassName>Strategy</BaseClassName>
+    <DerivedClassComponent>strategy</DerivedClassComponent>
+    <DerivedClassName>ConcreteStrategyC</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>state</BaseClassComponent>
+    <BaseClassName>State</BaseClassName>
+    <DerivedClassComponent>state</DerivedClassComponent>
+    <DerivedClassName>ConcreteStateA</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>state</BaseClassComponent>
+    <BaseClassName>State</BaseClassName>
+    <DerivedClassComponent>state</DerivedClassComponent>
+    <DerivedClassName>ConcreteStateB</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>observer</BaseClassComponent>
+    <BaseClassName>Observer</BaseClassName>
+    <DerivedClassComponent>observer</DerivedClassComponent>
+    <DerivedClassName>ConcreteObserver</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>observer</BaseClassComponent>
+    <BaseClassName>Subject</BaseClassName>
+    <DerivedClassComponent>observer</DerivedClassComponent>
+    <DerivedClassName>ConcreteSubject</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>mediator</BaseClassComponent>
+    <BaseClassName>Colleague</BaseClassName>
+    <DerivedClassComponent>mediator</DerivedClassComponent>
+    <DerivedClassName>ConcreteColleague1</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>mediator</BaseClassComponent>
+    <BaseClassName>Colleague</BaseClassName>
+    <DerivedClassComponent>mediator</DerivedClassComponent>
+    <DerivedClassName>ConcreteColleague2</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>mediator</BaseClassComponent>
+    <BaseClassName>Mediator</BaseClassName>
+    <DerivedClassComponent>mediator</DerivedClassComponent>
+    <DerivedClassName>ConcreteMediator</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>iterator</BaseClassComponent>
+    <BaseClassName>Aggregate</BaseClassName>
+    <DerivedClassComponent>iterator</DerivedClassComponent>
+    <DerivedClassName>ConcreteAggregate</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>iterator</BaseClassComponent>
+    <BaseClassName>Iterator</BaseClassName>
+    <DerivedClassComponent>iterator</DerivedClassComponent>
+    <DerivedClassName>ConcreteIterator</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>interpreter</BaseClassComponent>
+    <BaseClassName>AbstractExpression</BaseClassName>
+    <DerivedClassComponent>interpreter</DerivedClassComponent>
+    <DerivedClassName>NonterminalExpression</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>interpreter</BaseClassComponent>
+    <BaseClassName>AbstractExpression</BaseClassName>
+    <DerivedClassComponent>interpreter</DerivedClassComponent>
+    <DerivedClassName>TerminalExpression</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>command</BaseClassComponent>
+    <BaseClassName>Command</BaseClassName>
+    <DerivedClassComponent>command</DerivedClassComponent>
+    <DerivedClassName>ConcreteCommand</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>chainofrespansabilities</BaseClassComponent>
+    <BaseClassName>Handler</BaseClassName>
+    <DerivedClassComponent>chainofrespansabilities</DerivedClassComponent>
+    <DerivedClassName>ConcreteHandler1</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>chainofrespansabilities</BaseClassComponent>
+    <BaseClassName>Handler</BaseClassName>
+    <DerivedClassComponent>chainofrespansabilities</DerivedClassComponent>
+    <DerivedClassName>ConcreteHandler2</DerivedClassName>
+  </Inheritances>
+  <Aggregates>
+    <AggregatorClassComponent>builder</AggregatorClassComponent>
+    <AggregatorClass>Director</AggregatorClass>
+    <AggregateeClassComponent>builder</AggregateeClassComponent>
+    <AggregateeClass>Builder</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>builder</RelationName>
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>bridge</AggregatorClassComponent>
+    <AggregatorClass>Abstraction</AggregatorClass>
+    <AggregateeClassComponent>bridge</AggregateeClassComponent>
+    <AggregateeClass>Implementor</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>Implementor</RelationName>
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>composite</AggregatorClassComponent>
+    <AggregatorClass>Composite</AggregatorClass>
+    <AggregateeClassComponent>composite</AggregateeClassComponent>
+    <AggregateeClass>Component</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>Children</RelationName>
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>decorator</AggregatorClassComponent>
+    <AggregatorClass>Decorator</AggregatorClass>
+    <AggregateeClassComponent>decorator</AggregateeClassComponent>
+    <AggregateeClass>Component</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>component</RelationName>
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>flyweight</AggregatorClassComponent>
+    <AggregatorClass>FlyweightFactory</AggregatorClass>
+    <AggregateeClassComponent>flyweight</AggregateeClassComponent>
+    <AggregateeClass>Flyweight</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>Flyweights</RelationName>
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>strategy</AggregatorClassComponent>
+    <AggregatorClass>Context</AggregatorClass>
+    <AggregateeClassComponent>strategy</AggregateeClassComponent>
+    <AggregateeClass>Strategy</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>Strategy</RelationName>
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>state</AggregatorClassComponent>
+    <AggregatorClass>Context</AggregatorClass>
+    <AggregateeClassComponent>state</AggregateeClassComponent>
+    <AggregateeClass>State</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>State</RelationName>
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>memento</AggregatorClassComponent>
+    <AggregatorClass>Caretaker</AggregatorClass>
+    <AggregateeClassComponent>memento</AggregateeClassComponent>
+    <AggregateeClass>Momento</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>Momento</RelationName>
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>interpreter</AggregatorClassComponent>
+    <AggregatorClass>NonterminalExpression</AggregatorClass>
+    <AggregateeClassComponent>interpreter</AggregateeClassComponent>
+    <AggregateeClass>AbstractExpression</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName />
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>command</AggregatorClassComponent>
+    <AggregatorClass>Invoker</AggregatorClass>
+    <AggregateeClassComponent>command</AggregateeClassComponent>
+    <AggregateeClass>Command</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName />
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>chainofrespansabilities</AggregatorClassComponent>
+    <AggregatorClass>ConcreteHandler2</AggregatorClass>
+    <AggregateeClassComponent>chainofrespansabilities</AggregateeClassComponent>
+    <AggregateeClass>Handler</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>Successor</RelationName>
+  </Aggregates>
+  <References>
+    <ReferenceComponent>abstractfactory</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>abstractfactory</ReferedComponentName>
+    <ReferedClassName>AbstractFactory</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>abstractfactory</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>abstractfactory</ReferedComponentName>
+    <ReferedClassName>AbstractProductA</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>abstractfactory</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>abstractfactory</ReferedComponentName>
+    <ReferedClassName>AbstractProductB</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>prototype</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>prototype</ReferedComponentName>
+    <ReferedClassName>Prototype</ReferedClassName>
+    <ReferenceName>Prototype</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>structural</ReferenceComponent>
+    <ReferenceClass>Adapter</ReferenceClass>
+    <ReferedComponentName>structural</ReferedComponentName>
+    <ReferedClassName>Adaptee</ReferedClassName>
+    <ReferenceName>Adaptee</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>structural</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>structural</ReferedComponentName>
+    <ReferedClassName>Target</ReferedClassName>
+    <ReferenceName>Target</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>bridge</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>bridge</ReferedComponentName>
+    <ReferedClassName>Abstraction</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>composite</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>composite</ReferedComponentName>
+    <ReferedClassName>Component</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>facade</ReferenceComponent>
+    <ReferenceClass>Facade</ReferenceClass>
+    <ReferedComponentName>facade</ReferedComponentName>
+    <ReferedClassName>SubsystemClass1</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>facade</ReferenceComponent>
+    <ReferenceClass>Facade</ReferenceClass>
+    <ReferedComponentName>facade</ReferedComponentName>
+    <ReferedClassName>SubsystemClass2</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>flyweight</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>flyweight</ReferedComponentName>
+    <ReferedClassName>ConcreteFlyweight</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>flyweight</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>flyweight</ReferedComponentName>
+    <ReferedClassName>FlyweightFactory</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>flyweight</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>flyweight</ReferedComponentName>
+    <ReferedClassName>UnsharedConcreteFlyweight</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>proxy</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>proxy</ReferedComponentName>
+    <ReferedClassName>Subject</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>proxy</ReferenceComponent>
+    <ReferenceClass>Proxy</ReferenceClass>
+    <ReferedComponentName>proxy</ReferedComponentName>
+    <ReferedClassName>RealSubject</ReferedClassName>
+    <ReferenceName>RealSubject</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>visitor</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>visitor</ReferedComponentName>
+    <ReferedClassName>ObjectStructure</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>visitor</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>visitor</ReferedComponentName>
+    <ReferedClassName>Visitor</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>visitor</ReferenceComponent>
+    <ReferenceClass>ObjectStructure</ReferenceClass>
+    <ReferedComponentName>visitor</ReferedComponentName>
+    <ReferedClassName>Element</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>observer</ReferenceComponent>
+    <ReferenceClass>ConcreteObserver</ReferenceClass>
+    <ReferedComponentName>observer</ReferedComponentName>
+    <ReferedClassName>ConcreteSubject</ReferedClassName>
+    <ReferenceName>Subject</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>observer</ReferenceComponent>
+    <ReferenceClass>Subject</ReferenceClass>
+    <ReferedComponentName>observer</ReferedComponentName>
+    <ReferedClassName>Observer</ReferedClassName>
+    <ReferenceName>Observer</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>mediator</ReferenceComponent>
+    <ReferenceClass>Colleague</ReferenceClass>
+    <ReferedComponentName>mediator</ReferedComponentName>
+    <ReferedClassName>Mediator</ReferedClassName>
+    <ReferenceName>Mediator</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>mediator</ReferenceComponent>
+    <ReferenceClass>ConcreteMediator</ReferenceClass>
+    <ReferedComponentName>mediator</ReferedComponentName>
+    <ReferedClassName>ConcreteColleague1</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>mediator</ReferenceComponent>
+    <ReferenceClass>ConcreteMediator</ReferenceClass>
+    <ReferedComponentName>mediator</ReferedComponentName>
+    <ReferedClassName>ConcreteColleague2</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>iterator</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>iterator</ReferedComponentName>
+    <ReferedClassName>Aggregate</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>iterator</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>iterator</ReferedComponentName>
+    <ReferedClassName>Iterator</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>iterator</ReferenceComponent>
+    <ReferenceClass>ConcreteIterator</ReferenceClass>
+    <ReferedComponentName>iterator</ReferedComponentName>
+    <ReferedClassName>ConcreteAggregate</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>interpreter</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>interpreter</ReferedComponentName>
+    <ReferedClassName>AbstractExpression</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>interpreter</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>interpreter</ReferedComponentName>
+    <ReferedClassName>Context</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>command</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>command</ReferedComponentName>
+    <ReferedClassName>Receiver</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>command</ReferenceComponent>
+    <ReferenceClass>ConcreteCommand</ReferenceClass>
+    <ReferedComponentName>command</ReferedComponentName>
+    <ReferedClassName>Receiver</ReferedClassName>
+    <ReferenceName>Receiver</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>chainofrespansabilities</ReferenceComponent>
+    <ReferenceClass>Client</ReferenceClass>
+    <ReferedComponentName>chainofrespansabilities</ReferedComponentName>
+    <ReferedClassName>Handler</ReferedClassName>
+    <ReferenceName />
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <Creates>
+    <CreatorComponentName>abstractfactory</CreatorComponentName>
+    <CreatorClassName>ConcreteFactory1</CreatorClassName>
+    <CreateeComponentName>abstractfactory</CreateeComponentName>
+    <CreateeClassName>ProductA1</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>abstractfactory</CreatorComponentName>
+    <CreatorClassName>ConcreteFactory1</CreatorClassName>
+    <CreateeComponentName>abstractfactory</CreateeComponentName>
+    <CreateeClassName>ProductB1</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>abstractfactory</CreatorComponentName>
+    <CreatorClassName>ConcreteFactory2</CreatorClassName>
+    <CreateeComponentName>abstractfactory</CreateeComponentName>
+    <CreateeClassName>ProductA2</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>abstractfactory</CreatorComponentName>
+    <CreatorClassName>ConcreteFactory2</CreatorClassName>
+    <CreateeComponentName>abstractfactory</CreateeComponentName>
+    <CreateeClassName>ProductB2</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>builder</CreatorComponentName>
+    <CreatorClassName>ConcreteBuilder</CreatorClassName>
+    <CreateeComponentName>builder</CreateeComponentName>
+    <CreateeClassName>Product</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>factory</CreatorComponentName>
+    <CreatorClassName>ConcreteCreator</CreatorClassName>
+    <CreateeComponentName>factory</CreateeComponentName>
+    <CreateeClassName>ConcreteProduct</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>memento</CreatorComponentName>
+    <CreatorClassName>Originator</CreatorClassName>
+    <CreateeComponentName>memento</CreateeComponentName>
+    <CreateeClassName>Momento</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>iterator</CreatorComponentName>
+    <CreatorClassName>ConcreteAggregate</CreatorClassName>
+    <CreateeComponentName>iterator</CreateeComponentName>
+    <CreateeClassName>ConcreteIterator</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>command</CreatorComponentName>
+    <CreatorClassName>Client</CreatorClassName>
+    <CreateeComponentName>command</CreateeComponentName>
+    <CreateeClassName>ConcreteCommand</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>AbstractFactory</ClassName>
+    <XCoOrdinate>396</XCoOrdinate>
+    <YCoOrdinate>64</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>AbstractProductA</ClassName>
+    <XCoOrdinate>190</XCoOrdinate>
+    <YCoOrdinate>115</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>AbstractProductB</ClassName>
+    <XCoOrdinate>32</XCoOrdinate>
+    <YCoOrdinate>114</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>167</XCoOrdinate>
+    <YCoOrdinate>15</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ConcreteFactory1</ClassName>
+    <XCoOrdinate>194</XCoOrdinate>
+    <YCoOrdinate>319</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ConcreteFactory2</ClassName>
+    <XCoOrdinate>405</XCoOrdinate>
+    <YCoOrdinate>255</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ProductA1</ClassName>
+    <XCoOrdinate>182</XCoOrdinate>
+    <YCoOrdinate>173</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ProductA2</ClassName>
+    <XCoOrdinate>269</XCoOrdinate>
+    <YCoOrdinate>173</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ProductB1</ClassName>
+    <XCoOrdinate>4</XCoOrdinate>
+    <YCoOrdinate>174</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <ClassName>ProductB2</ClassName>
+    <XCoOrdinate>94</XCoOrdinate>
+    <YCoOrdinate>174</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>builder</ComponentName>
+    <ClassName>Builder</ClassName>
+    <XCoOrdinate>428</XCoOrdinate>
+    <YCoOrdinate>101</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>builder</ComponentName>
+    <ClassName>ConcreteBuilder</ClassName>
+    <XCoOrdinate>395</XCoOrdinate>
+    <YCoOrdinate>211</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>builder</ComponentName>
+    <ClassName>Director</ClassName>
+    <XCoOrdinate>108</XCoOrdinate>
+    <YCoOrdinate>105</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>builder</ComponentName>
+    <ClassName>Product</ClassName>
+    <XCoOrdinate>624</XCoOrdinate>
+    <YCoOrdinate>218</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>factory</ComponentName>
+    <ClassName>ConcreteCreator</ClassName>
+    <XCoOrdinate>281</XCoOrdinate>
+    <YCoOrdinate>284</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>factory</ComponentName>
+    <ClassName>ConcreteProduct</ClassName>
+    <XCoOrdinate>54</XCoOrdinate>
+    <YCoOrdinate>285</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>factory</ComponentName>
+    <ClassName>Creator</ClassName>
+    <XCoOrdinate>333</XCoOrdinate>
+    <YCoOrdinate>134</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>factory</ComponentName>
+    <ClassName>Product</ClassName>
+    <XCoOrdinate>61</XCoOrdinate>
+    <YCoOrdinate>131</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>133</XCoOrdinate>
+    <YCoOrdinate>104</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>ConcretePrototype1</ClassName>
+    <XCoOrdinate>404</XCoOrdinate>
+    <YCoOrdinate>201</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>ConcretePrototype2</ClassName>
+    <XCoOrdinate>573</XCoOrdinate>
+    <YCoOrdinate>201</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>prototype</ComponentName>
+    <ClassName>Prototype</ClassName>
+    <XCoOrdinate>508</XCoOrdinate>
+    <YCoOrdinate>104</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>singleton</ComponentName>
+    <ClassName>Singleton</ClassName>
+    <XCoOrdinate>82</XCoOrdinate>
+    <YCoOrdinate>44</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Adaptee</ClassName>
+    <XCoOrdinate>480</XCoOrdinate>
+    <YCoOrdinate>203</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Adapter</ClassName>
+    <XCoOrdinate>299</XCoOrdinate>
+    <YCoOrdinate>199</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>156</XCoOrdinate>
+    <YCoOrdinate>125</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>structural</ComponentName>
+    <ClassName>Target</ClassName>
+    <XCoOrdinate>299</XCoOrdinate>
+    <YCoOrdinate>114</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>Abstraction</ClassName>
+    <XCoOrdinate>105</XCoOrdinate>
+    <YCoOrdinate>178</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>136</XCoOrdinate>
+    <YCoOrdinate>112</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>ConcreteImplementorA</ClassName>
+    <XCoOrdinate>363</XCoOrdinate>
+    <YCoOrdinate>279</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>ConcreteImplementorB</ClassName>
+    <XCoOrdinate>597</XCoOrdinate>
+    <YCoOrdinate>278</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>Implementor</ClassName>
+    <XCoOrdinate>482</XCoOrdinate>
+    <YCoOrdinate>178</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>bridge</ComponentName>
+    <ClassName>RefinedAbstraction</ClassName>
+    <XCoOrdinate>108</XCoOrdinate>
+    <YCoOrdinate>267</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>63</XCoOrdinate>
+    <YCoOrdinate>66</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Component</ClassName>
+    <XCoOrdinate>258</XCoOrdinate>
+    <YCoOrdinate>59</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Composite</ClassName>
+    <XCoOrdinate>356</XCoOrdinate>
+    <YCoOrdinate>336</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>composite</ComponentName>
+    <ClassName>Leaf</ClassName>
+    <XCoOrdinate>91</XCoOrdinate>
+    <YCoOrdinate>337</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>Component</ClassName>
+    <XCoOrdinate>245</XCoOrdinate>
+    <YCoOrdinate>53</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteComponent</ClassName>
+    <XCoOrdinate>40</XCoOrdinate>
+    <YCoOrdinate>64</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteDecoratorA</ClassName>
+    <XCoOrdinate>113</XCoOrdinate>
+    <YCoOrdinate>310</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>ConcreteDecoratorB</ClassName>
+    <XCoOrdinate>274</XCoOrdinate>
+    <YCoOrdinate>310</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>decorator</ComponentName>
+    <ClassName>Decorator</ClassName>
+    <XCoOrdinate>215</XCoOrdinate>
+    <YCoOrdinate>201</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>facade</ComponentName>
+    <ClassName>Facade</ClassName>
+    <XCoOrdinate>225</XCoOrdinate>
+    <YCoOrdinate>100</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>facade</ComponentName>
+    <ClassName>SubsystemClass1</ClassName>
+    <XCoOrdinate>146</XCoOrdinate>
+    <YCoOrdinate>226</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>facade</ComponentName>
+    <ClassName>SubsystemClass2</ClassName>
+    <XCoOrdinate>253</XCoOrdinate>
+    <YCoOrdinate>228</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>38</XCoOrdinate>
+    <YCoOrdinate>266</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>ConcreteFlyweight</ClassName>
+    <XCoOrdinate>251</XCoOrdinate>
+    <YCoOrdinate>381</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>Flyweight</ClassName>
+    <XCoOrdinate>376</XCoOrdinate>
+    <YCoOrdinate>23</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>FlyweightFactory</ClassName>
+    <XCoOrdinate>126</XCoOrdinate>
+    <YCoOrdinate>146</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>flyweight</ComponentName>
+    <ClassName>UnsharedConcreteFlyweight</ClassName>
+    <XCoOrdinate>519</XCoOrdinate>
+    <YCoOrdinate>266</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>115</XCoOrdinate>
+    <YCoOrdinate>94</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>Proxy</ClassName>
+    <XCoOrdinate>496</XCoOrdinate>
+    <YCoOrdinate>187</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>RealSubject</ClassName>
+    <XCoOrdinate>293</XCoOrdinate>
+    <YCoOrdinate>213</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>proxy</ComponentName>
+    <ClassName>Subject</ClassName>
+    <XCoOrdinate>398</XCoOrdinate>
+    <YCoOrdinate>93</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>71</XCoOrdinate>
+    <YCoOrdinate>123</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementA</ClassName>
+    <XCoOrdinate>215</XCoOrdinate>
+    <YCoOrdinate>564</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteElementB</ClassName>
+    <XCoOrdinate>403</XCoOrdinate>
+    <YCoOrdinate>564</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteVisitor1</ClassName>
+    <XCoOrdinate>149</XCoOrdinate>
+    <YCoOrdinate>301</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ConcreteVisitor2</ClassName>
+    <XCoOrdinate>343</XCoOrdinate>
+    <YCoOrdinate>245</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>Element</ClassName>
+    <XCoOrdinate>333</XCoOrdinate>
+    <YCoOrdinate>450</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>ObjectStructure</ClassName>
+    <XCoOrdinate>26</XCoOrdinate>
+    <YCoOrdinate>467</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>visitor</ComponentName>
+    <ClassName>Visitor</ClassName>
+    <XCoOrdinate>227</XCoOrdinate>
+    <YCoOrdinate>121</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>template</ComponentName>
+    <ClassName>AbstractClass</ClassName>
+    <XCoOrdinate>180</XCoOrdinate>
+    <YCoOrdinate>100</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>template</ComponentName>
+    <ClassName>ConcreteClass</ClassName>
+    <XCoOrdinate>180</XCoOrdinate>
+    <YCoOrdinate>284</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>ConcreteStrategyA</ClassName>
+    <XCoOrdinate>218</XCoOrdinate>
+    <YCoOrdinate>356</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>ConcreteStrategyB</ClassName>
+    <XCoOrdinate>363</XCoOrdinate>
+    <YCoOrdinate>356</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>ConcreteStrategyC</ClassName>
+    <XCoOrdinate>544</XCoOrdinate>
+    <YCoOrdinate>232</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>Context</ClassName>
+    <XCoOrdinate>22</XCoOrdinate>
+    <YCoOrdinate>137</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>strategy</ComponentName>
+    <ClassName>Strategy</ClassName>
+    <XCoOrdinate>334</XCoOrdinate>
+    <YCoOrdinate>131</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>state</ComponentName>
+    <ClassName>ConcreteStateA</ClassName>
+    <XCoOrdinate>305</XCoOrdinate>
+    <YCoOrdinate>217</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>state</ComponentName>
+    <ClassName>ConcreteStateB</ClassName>
+    <XCoOrdinate>405</XCoOrdinate>
+    <YCoOrdinate>217</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>state</ComponentName>
+    <ClassName>Context</ClassName>
+    <XCoOrdinate>45</XCoOrdinate>
+    <YCoOrdinate>59</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>state</ComponentName>
+    <ClassName>State</ClassName>
+    <XCoOrdinate>366</XCoOrdinate>
+    <YCoOrdinate>52</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteObserver</ClassName>
+    <XCoOrdinate>489</XCoOrdinate>
+    <YCoOrdinate>246</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>observer</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <XCoOrdinate>109</XCoOrdinate>
+    <YCoOrdinate>246</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>observer</ComponentName>
+    <ClassName>Observer</ClassName>
+    <XCoOrdinate>530</XCoOrdinate>
+    <YCoOrdinate>121</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>observer</ComponentName>
+    <ClassName>Subject</ClassName>
+    <XCoOrdinate>60</XCoOrdinate>
+    <YCoOrdinate>121</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>Colleague</ClassName>
+    <XCoOrdinate>407</XCoOrdinate>
+    <YCoOrdinate>132</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>ConcreteColleague1</ClassName>
+    <XCoOrdinate>338</XCoOrdinate>
+    <YCoOrdinate>235</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>ConcreteColleague2</ClassName>
+    <XCoOrdinate>455</XCoOrdinate>
+    <YCoOrdinate>263</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>ConcreteMediator</ClassName>
+    <XCoOrdinate>143</XCoOrdinate>
+    <YCoOrdinate>237</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>mediator</ComponentName>
+    <ClassName>Mediator</ClassName>
+    <XCoOrdinate>134</XCoOrdinate>
+    <YCoOrdinate>131</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Caretaker</ClassName>
+    <XCoOrdinate>691</XCoOrdinate>
+    <YCoOrdinate>98</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Momento</ClassName>
+    <XCoOrdinate>413</XCoOrdinate>
+    <YCoOrdinate>87</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>memento</ComponentName>
+    <ClassName>Originator</ClassName>
+    <XCoOrdinate>37</XCoOrdinate>
+    <YCoOrdinate>95</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Aggregate</ClassName>
+    <XCoOrdinate>65</XCoOrdinate>
+    <YCoOrdinate>90</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>353</XCoOrdinate>
+    <YCoOrdinate>95</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteAggregate</ClassName>
+    <XCoOrdinate>27</XCoOrdinate>
+    <YCoOrdinate>234</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>ConcreteIterator</ClassName>
+    <XCoOrdinate>548</XCoOrdinate>
+    <YCoOrdinate>319</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>iterator</ComponentName>
+    <ClassName>Iterator</ClassName>
+    <XCoOrdinate>492</XCoOrdinate>
+    <YCoOrdinate>80</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>AbstractExpression</ClassName>
+    <XCoOrdinate>290</XCoOrdinate>
+    <YCoOrdinate>181</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>91</XCoOrdinate>
+    <YCoOrdinate>182</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>Context</ClassName>
+    <XCoOrdinate>362</XCoOrdinate>
+    <YCoOrdinate>111</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>NonterminalExpression</ClassName>
+    <XCoOrdinate>140</XCoOrdinate>
+    <YCoOrdinate>309</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>interpreter</ComponentName>
+    <ClassName>TerminalExpression</ClassName>
+    <XCoOrdinate>394</XCoOrdinate>
+    <YCoOrdinate>313</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>command</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>42</XCoOrdinate>
+    <YCoOrdinate>109</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>command</ComponentName>
+    <ClassName>Command</ClassName>
+    <XCoOrdinate>350</XCoOrdinate>
+    <YCoOrdinate>118</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>command</ComponentName>
+    <ClassName>ConcreteCommand</ClassName>
+    <XCoOrdinate>353</XCoOrdinate>
+    <YCoOrdinate>223</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>command</ComponentName>
+    <ClassName>Invoker</ClassName>
+    <XCoOrdinate>239</XCoOrdinate>
+    <YCoOrdinate>129</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>command</ComponentName>
+    <ClassName>Receiver</ClassName>
+    <XCoOrdinate>92</XCoOrdinate>
+    <YCoOrdinate>225</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>Client</ClassName>
+    <XCoOrdinate>71</XCoOrdinate>
+    <YCoOrdinate>60</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>ConcreteHandler1</ClassName>
+    <XCoOrdinate>162</XCoOrdinate>
+    <YCoOrdinate>227</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>ConcreteHandler2</ClassName>
+    <XCoOrdinate>307</XCoOrdinate>
+    <YCoOrdinate>226</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <ClassName>Handler</ClassName>
+    <XCoOrdinate>348</XCoOrdinate>
+    <YCoOrdinate>82</YCoOrdinate>
+  </UIDetails>
+  <ComponentUIDetails>
+    <ComponentName>abstractfactory</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>builder</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>factory</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>prototype</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>singleton</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>creationalpatterns</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>structural</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>bridge</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>composite</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>decorator</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>facade</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>flyweight</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>proxy</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>interpreter</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>iterator</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>memento</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>state</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>strategy</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>template</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>visitor</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>observer</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>mediator</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>command</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>behaviorpatterns</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+  <ComponentUIDetails>
+    <ComponentName>chainofrespansabilities</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+</DesignPatternProject>
